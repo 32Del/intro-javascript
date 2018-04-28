@@ -83,7 +83,7 @@ var nbVoyelles = compterNbVoyelles(motSaisi);
 console.log("Il contient " + nbVoyelles + " voyelle(s) et " + (longueurMot - nbVoyelles) + " consonne(s)");
 
 var motInverse = inverser(motSaisi);
-console.log("Il s'écrit à l'envers " + inverser(motSaisi));
+console.log("Il s'écrit à l'envers " + motInverse);
 
 if (motInverse.toLowerCase() === motSaisi.toLowerCase()) {
     console.log("C'est un palindrome");
